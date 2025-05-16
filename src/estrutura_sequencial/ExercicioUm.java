@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ExercicioUm {
 
-    public static int int_input(String mensagem){
+    public static int intInput(String mensagem){
         Scanner sc = new Scanner(System.in);
         int output;
 
@@ -15,12 +15,12 @@ public class ExercicioUm {
     }
 
     public static void main(String[] args){
-        int num_01, num_02, soma;
+        int num01, num02, soma;
 
-        num_01 = int_input("Insira o primeiro número inteiro: ");
-        num_02 = int_input("Insira o segundo número inteiro: ");
+        num01 = intInput("Insira o primeiro número inteiro: ");
+        num02 = intInput("Insira o segundo número inteiro: ");
 
-        soma = num_01 + num_02;
+        soma = num01 + num02;
 
         System.out.printf("A soma dos dois número é: %d", soma);
 
